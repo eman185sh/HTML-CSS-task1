@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CSS Articles</title>
+<style>
+    body {
+        font-family: Georgia, serif;
+        margin: 40px;
+        line-height: 1.6;
+    }
+    h1 {
+        font-size: 32px;
+        font-weight: bold;
+    }
+    h2 {
+        font-size: 26px;
+        font-weight: bold;
+    }
+    .box1 {
+        border: 3px solid black;
+        padding: 20px;
+        margin-bottom: 40px;
+    }
+    .outer-box {
+        border: 3px dashed black;
+        padding: 10px;
+        margin-bottom: 40px;
+    }
+    .inner-box {
+        border: 2px dotted red;
+        padding: 20px;
+    }
+    .box3 {
+        border: 3px solid purple;
+        padding: 20px;
+        margin-bottom: 40px;
+    }
+    mark.yellow { background-color: yellow; }
+    mark.orange { background-color: orange; }
+    mark.red { background-color: #ff6a6a; }
+</style>
+</head>
+<body>
+
+<h1>CSS Articles</h1>
+
+<div class="box1">
+    <h2>Heading Num. 2</h2>
+    <p>
+        Lorem <mark class="yellow">ipsum</mark> dolor sit amet, consectetur adipiscing elit.
+        Proin lacinia lorem eu porttitor luctus. Sed ac mauris vitae arcu consectetur tempor
+        sed congue felis. Vivamus posuere scelerisque dapibus. Nam ultricies laoreet augue id semper.
+        Sed eu lacus ac dolor volutpat scelerisque eu sed risus. Nunc sollicitudin bibendum varius.
+        Donec laoreet gravida metus. Fusce porta consequat augue, eget fermentum lectus molestie ultrices.
+        Etiam sit amet sem sed massa maximus eleifend. Etiam eu maximus 
+        <mark class="yellow">ipsum</mark>. Morbi ut venenatis mauris.
+        Etiam vehicula nisl neque, fringilla pellentesque dui consequat 
+        <mark class="orange">quis</mark>. Nunc feugiat, massa non consequat blandit,
+        tellus quam gravida nisl, eu varius leo quam nec leo.
+    </p>
+</div>
+
+<div class="outer-box">
+    
+        <h2>Heading Num. 2</h2>
+         <div class="inner-box">
+        <p>
+            Donec nec lacus et felis scelerisque iaculis a vitae nibh.
+            Nullam in sapien condimentum erat interdum pretium eget sit amet ex.
+            Duis sed enim nisl. Cras ut lacus vitae metus posuere vestibulum.
+            Proin posuere tincidunt <mark class="yellow">ipsum</mark> ut aliquam.
+            Aenean lacinia urna mauris, <mark class="orange">quis</mark> volutpat nulla blandit at.
+            Nam placerat porta ornare. Nunc pretium elit et leo blandit,
+            consectetur pretium sapien porttitor. Aenean consectetur malesuada enim,
+            eget fringilla dolor fermentum id. Curabitur ut pulvinar nulla.
+            Sed mollis felis eget blandit venenatis. Pellentesque eu nisi pharetra felis aliquam scelerisque.
+            Aliquam ac mattis neque. Ut fermentum feugiat dolor.
+        </p>
+    </div>
+</div>
+
+<div class="box3">
+    <h2 style="color: purple;">Heading Num. 2</h2>
+    <p>
+        Etiam in ex <mark class="orange">quis</mark> eros hendrerit sollicitudin vitae iaculis neque.
+        Vestibulum ornare nibh lectus, id laoreet lacus feugiat in. Morbi et porta erat,
+        <mark class="yellow">quis</mark> tristique lorem. Nunc mollis tincidunt risus maximus dapibus sagittis.
+        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+        Phasellus vestibulum non augue scelerisque tincidunt. Vivamus dolor lacus, vulputate sed scelerisque
+        quam faucibus vitae.
+    </p>
+</div>
+
+</body>
+</html>
