@@ -62,4 +62,5 @@ This training helped me practice real CSS fundamentals and understand how stylin
 ---
 
 ## 📂 **Project Structure**
+The project consists of HTML and CSS files, each containing a simple example demonstrating one of the topics above.
 
